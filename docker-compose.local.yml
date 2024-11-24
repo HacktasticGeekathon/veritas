@@ -7,11 +7,12 @@ services:
       - "80:80"
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-
   backend-api:
     image: jcoelho584/backend-api
     ports:
       - 8080:8000
+    env_file:
+      - .env
 
   webapp:
     image: jcoelho584/fallacy-webapp
@@ -22,4 +23,5 @@ services:
     image: jcoelho584/fallacy-detection-api
     ports:
       - 8081:8000
-
+    env_file:
+      - .env
