@@ -1,4 +1,12 @@
 services:
+  nginx:
+    container_name: nginx
+    restart: always
+    image: "nginx:latest"
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
   backend-api:
     image: jcoelho584/backend-api
     ports:
