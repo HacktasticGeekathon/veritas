@@ -1,0 +1,19 @@
+services:
+  backend-api:
+    image: jcoelho584/backend-api
+    ports:
+      - 8080:8000
+    env_file:
+      - .env
+
+  webapp:
+    image: jcoelho584/fallacy-webapp
+    ports:
+      - 3000:3000
+
+  fallacy-detection-api:
+    image: jcoelho584/fallacy-detection-api
+    ports:
+      - 8081:8000
+    env_file:
+      - .env
