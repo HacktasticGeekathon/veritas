@@ -7,7 +7,7 @@
 Detect logical fallacies and fact-check speeches in real time!
 This application analyzes videos of news and political figures' speeches, identifying logical fallacies and verifying the accuracy of claims.
 
-🚀 **[Live Demo](http://44.244.174.51:3000)** ✨ ✨
+🚀 **[Live Demo](http://44.244.174.51:3000)** ✨ ✨ ( :warning: This URL is not reachable from the BlackBox WiFi!! :warning: )
 
 |                                       |                                       |
 | ------------------------------------- | ------------------------------------- |

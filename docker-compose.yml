@@ -5,16 +5,20 @@ services:
       - 8080:8000
     environment:
       AWS_DEFAULT_REGION: "us-west-2"
+      FALLACY_API_URL: "http://fallacy-detection-api:8081"
     env_file:
       - .env
+
   webapp:
     image: jcoelho584/fallacy-webapp
     ports:
       - 3000:3000
     environment:
       AWS_DEFAULT_REGION: "us-west-2"
+      VITE_API_URL: "ws://backend-api:8080/ws"
     env_file:
       - .env
+
   fallacy-detection-api:
     image: jcoelho584/fallacy-detection-api
     ports:
