@@ -13,7 +13,7 @@ This application analyzes videos of news and political figures' speeches, identi
 | ------------------------------------- | ------------------------------------- |
 | ![Screenshot 1](imgs/screenshot1.png) | ![Screenshot 2](imgs/screenshot2.png) |
 
-![Demo](videos/Demo.mp4)
+![Demo](imgs/Demo.gif)
 
 ---
 
