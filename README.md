@@ -9,13 +9,16 @@ This application analyzes videos of news and political figures' speeches, identi
 
 🚀 **[Live Demo](http://44.244.174.51:3000)** ✨ ✨ ( :warning: This URL is not reachable from the BlackBox WiFi!! :warning: )
 
+
 |                                       |                                       |
 | ------------------------------------- | ------------------------------------- |
 | ![Screenshot 1](imgs/screenshot1.png) | ![Screenshot 2](imgs/screenshot2.png) |
-
-![Demo](imgs/Demo.gif)
-
 ---
+
+<div align="center" style="width: 1200px;">
+  <img src="imgs/Demo.gif" alt="Demo" >
+</div>
+
 
 ## 🎯 Problem Statement
 
